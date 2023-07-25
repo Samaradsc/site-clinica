@@ -1,24 +1,15 @@
-:root {
-  --body-font:'Poppins', sans-serif;
-  --header-font: 'Poppins', sans-serif;
-  --Dark-Blue: hsl(217, 100%, 61%);
-  --Grayish-Blue: hsl(216, 30%, 68%);
-  --Very-Dark-Violet: hsl(270, 9%, 17%); 
-  --Dark-Grayish-Violet: hsl(273, 4%, 51%);
-  --Very-Light-Gray: hsl(197, 24%, 94%);
-}
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: var(--body-font);
+  font-family: 'Poppins', sans-serif;
 }
 
 /* HEADER SECTION STYLES */
 
 header {
-  background-color: var(--Very-Light-Gray);
+  background-color: hsl(197, 24%, 94%);
 }
 
 nav {
@@ -48,12 +39,12 @@ nav {
   text-transform: uppercase;
   font-size: 16px;
   cursor: pointer;
-  color: var(--Dark-Grayish-Violet);
+  color: hsl(273, 4%, 51%);
   font-weight: 700;
 }
 
 .nav-link:hover {
-  color: var(--Very-Dark-Violet);
+  color: hsl(270, 9%, 17%);
   transition: color 0.3s;
 }
 
@@ -61,14 +52,14 @@ nav {
   text-transform: uppercase;
   padding: 0.5rem 1.5rem;
   background-color: transparent;
-  border: 2px solid var(--Very-Dark-Violet);
+  border: 2px solid hsl(270, 9%, 17%);
   font-weight: 700;
   cursor: pointer;
 }
 
 .nav-link button:hover {
-  background-color: var(--Very-Dark-Violet);
-  color: var(--Very-Light-Gray);
+  background-color: hsl(270, 9%, 17%);
+  color: hsl(197, 24%, 94%);
   transition: all 0.3s;
 }
 
@@ -79,7 +70,7 @@ nav {
 /* MAIN SECTION STYLES */
 
 .landing {
-  background-color: var(--Dark-Blue);
+  background-color: hsl(217, 100%, 61%);
   height: 600px;
   display: flex;
   align-items: center;
@@ -97,10 +88,10 @@ nav {
 }
 
 .landing-container .title {
-  font-family: var(--header-font);
+  font-family: 'Poppins', sans-serif;
   font-size: 3.7rem;
   line-height: 50px;
-  color: var(--Very-Light-Gray);
+  color: hsl(197, 24%, 94%);
 }
 
 .landing-container .title::before {
@@ -109,7 +100,7 @@ nav {
   width: 150px;
   height: 2px;
   display: block;
-  background-color: var(--Very-Light-Gray);
+  background-color: hsl(197, 24%, 94%);
 }
 
 .landing-container .content {
@@ -120,14 +111,14 @@ nav {
 }
 
 .landing-container .info {
-  color: var(--Very-Light-Gray);
+  color: hsl(197, 24%, 94%);
 }
 
 .landing-container .plan-btn {
   padding: 0.8rem 2rem;
   text-transform: uppercase;
-  border: 1px solid var(--Very-Light-Gray);
-  color: var(--Very-Light-Gray);
+  border: 1px solid hsl(197, 24%, 94%);
+  color: hsl(197, 24%, 94%);
   background-color: transparent;
   cursor: pointer;
   font-weight: 700;
@@ -136,8 +127,8 @@ nav {
 
 .plan-btn:hover {
   transition: all 0.3s;
-  color: var(--Very-Dark-Violet);
-  background-color: var(--Very-Light-Gray);
+  color: hsl(270, 9%, 17%);
+  background-color: hsl(197, 24%, 94%);
 }
 
 /* HOW SECTION STYLES */
@@ -155,7 +146,7 @@ nav {
 }
 
 .how-container .title {
-  font-family: var(--header-font);
+  font-family: 'Poppins', sans-serif;
   font-size: 3.7rem;
 }
 
@@ -165,7 +156,7 @@ nav {
   width: 150px;
   height: 2px;
   display: block;
-  background-color: var(--Dark-Grayish-Violet);
+  background-color: hsl(273, 4%, 51%);
 }
 
 .row {
@@ -187,13 +178,13 @@ nav {
 }
 
 .card-content .card-title {
-  font-family: var(--header-font);
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
 }
 
 .card-content .card-info {
   line-height: 1.5rem;
-  color: var(--Dark-Grayish-Violet);
+  color: hsl(273, 4%, 51%);
 }
 
 .work-section {
@@ -203,7 +194,7 @@ nav {
 .work-container {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: var(--Dark-Blue);
+  background-color: hsl(217, 100%, 61%);
   padding: 3rem;
   display: flex;
   justify-content: space-between;
@@ -214,16 +205,16 @@ nav {
 }
 
 .work-container h1 {
-  font-family: var(--header-font);
+  font-family: 'Poppins', sans-serif;
   font-size: 3.7rem;
-  color: var(--Very-Light-Gray);
+  color: hsl(197, 24%, 94%);
 }
 
 .work-container button {
   padding: 0.8rem 2rem;
   text-transform: uppercase;
-  border: 1px solid var(--Very-Light-Gray);
-  color: var(--Very-Light-Gray);
+  border: 1px solid hsl(197, 24%, 94%);
+  color: hsl(197, 24%, 94%);
   background-color: transparent;
   cursor: pointer;
   font-weight: 700;
@@ -232,14 +223,14 @@ nav {
 
 .work-container button:hover {
   transition: all 0.3s;
-  color: var(--Very-Dark-Violet);
-  background-color: var(--Very-Light-Gray);
+  color: hsl(270, 9%, 17%);
+  background-color: hsl(197, 24%, 94%);
 }
 
 /* FOOTER SECTION */
 
 footer {
-  background-color: var(--Very-Light-Gray);
+  background-color: hsl(197, 24%, 94%);
   background-image: url("");
   background-repeat: no-repeat;
   background-position: top left;
@@ -288,7 +279,7 @@ footer {
 
 .column .column-title {
   margin-bottom: 1rem;
-  color: var(--Dark-Grayish-Violet);
+  color: hsl(273, 4%, 51%);
 }
 
 .column p {
@@ -318,7 +309,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: var(--Very-Dark-Violet);
+    background-color: hsl(270, 9%, 17%);
     background-image: url("");
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -334,17 +325,18 @@ footer {
     transition: transform 0.3s;
   }
   .nav-link {
-    color: var(--Very-Light-Gray);
+    color: hsl(197, 24%, 94%);
     font-size: 1.5rem;
   }
   .nav-link:hover {
-    color: var(--Very-Light-Gray);
+    color: hsl(197, 24%, 94%);
   }
   .nav-link button {
-    color: var(--Very-Light-Gray);
-    border-color: var(--Very-Light-Gray);
+    color: hsl(197, 24%, 94%);
+    border-color: hsl(197, 24%, 94%);
     font-size: 1.3rem;
     padding: 1rem 6rem;
+    display: none;
   }
   .menu-btn {
     display: flex;
